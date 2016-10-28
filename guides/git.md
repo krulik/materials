@@ -80,4 +80,44 @@ $ git push -u origin master
 
 You can go to your Github repository, refresh the page and see the contents of your folder on Github servers.
 
-:congrats:
+:tada:
+
+## Github pages
+
+Github can automatically publish your site on the Web, with a CDN and even a custom domain name for free.
+
+All you need to do is create and push into a special branch that's monitored by Github and when you push a deploy is triggered.
+
+### Create a Github pages branch
+
+Create a new branch with the name `gh-pages` (must be spelled exactly) and immediately switch to it:
+
+```
+$ git checkout -b gh-pages
+```
+
+The `checkout` command switches to a branch and the `-b` flag creates it.
+
+**NOTICE**
+
+Git branches are mere pointers to a state of your repository (a commit), and when you create a new branch it will point initially to the same state as the original branch (`master` in this case).
+
+### Push the new branch to Github servers
+
+You don't need to create the branch on Github servers first, it'll be created automatically when you push.
+
+```
+$ git push -u origin gh-pages
+```
+
+### Test the deployment
+
+After you push to `gh-pages` Github publishes the site under this URL:
+
+```
+http://yourusername.github.io/my-repo
+```
+
+You should replace `yourusername` and `my-repo` with the corresponding values.
+
+Open the browser and witness the magic :simple_smile: :sparkles:
