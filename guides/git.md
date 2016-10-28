@@ -120,4 +120,4 @@ http://yourusername.github.io/my-repo
 
 You should replace `yourusername` and `my-repo` with the corresponding values.
 
-Open the browser and witness the magic :simple_smile: :sparkles:
+Open the browser and witness the magic :smile: :sparkles:
