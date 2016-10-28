@@ -17,7 +17,9 @@ https://try.github.io/
 
 ## Push your first repo to Github
 
-Assuming you're in a folder called `/my-repo` with the files you'd like to push.
+### Initialize a local repository
+
+Assuming you're inside a folder called `/my-repo` with the files you'd like to push.
 
 ```
 # initialize a new git repository in /my-repo, so git will start tracking your files
@@ -27,9 +29,55 @@ $ git init
 Initialized empty Git repository in /my-repo
 ```
 
+### Initialize a repository on Github
+
 Now you should do the equivalent step on Github servers.
 
-Go to your profile on Github and create a new repository. 
+Go to your profile on Github and create a new repository.
 You'll need to provide a name. It's advised you'll use the same name as your folder name (`my-repo`).
 
 **IMPORTANT**
+
+Don't check any checkboxes that add a `README.md`, `.gitignore` or `LICENSE` files to the repo. It needs to be empty.
+
+### Add the Github repository as a `remote` in your local repository
+
+Replace `yourusername` and `my-repo` in the following URL with the corresponding values.
+
+```
+$ git remote add origin https://github.com/yourusername/my-repo.git
+```
+
+You can test that the remote was added correctly by typing `git remote -v` and seeing `origin` there with the above URL.
+
+`-v` stands for verbose, otherwise it won't output the URL.
+
+### Commit your local state
+
+You should type `git status` and see that you have untracked files (Git will mark them as untracked and with a red color). These are files that Git had detected in your folder which he doesn't have any record about. You should first add them to Git:
+
+```
+# add all files in the folder
+
+$ git add .
+```
+
+Now if you type `git status` you'll see the files marked as "new" and with a green color. If everything's ok you can commit the state:
+
+```
+$ git commit -m "initial commit"
+```
+
+`-m` stands for a commit message, you must provide one and make sure it's meaningful.
+
+### Push your local branch to the remote branch
+
+```
+$ git push -u origin master
+```
+
+`-u` (upstream) connects your local branch with the remote branch for future push (and pull) so you can write only `git push`.
+
+You can go to your Github repository, refresh the page and see the contents of your folder on Github servers.
+
+:congrats:
