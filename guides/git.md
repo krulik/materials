@@ -10,7 +10,7 @@ Git is a version control system (VCS), with a few differentiating points:
 
 ## Tutorial
 
-There's a short and sweet tutorial by Codeacademy and Github called "Try Git".
+There's a short and sweet tutorial (15m) by Codeacademy and Github called "Try Git".
 It's assumed you'll complete it before proceeding any further.
 
 https://try.github.io/
