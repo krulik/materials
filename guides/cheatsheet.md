@@ -14,6 +14,9 @@
 
 ## NPM
 - `npm install -g package-name` - install a package globally (you might need to prefix with `sudo`)
+- `npm install package-name` - install a package in local folder
+- `npm install --save package-name` - install a package in local folder and save a project dependency
+- `npm init` - create a `package.json` file to save dependencies, scripts and meta-data for the project
 
 ## VSCode
 - Type in termimal `vscode .` to open VSCode in current folder
