@@ -6,6 +6,7 @@ Git is a version control system (VCS), with a few differentiating points:
 
 1. It's fast
 1. It's distributed (there's no need for a central server as every client posses the whole history for a repository)
+1. It's branching/merging capabilities encourages a healthy workflow
 1. Its rooted in the open source community and therefore integrates very well with other tools in our workflow
 
 ## Tutorial

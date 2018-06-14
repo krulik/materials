@@ -7,6 +7,7 @@
 ## Terminal
 - `ls -la` - list dir (incl. hidden files)
 - `mkdir` - create a new dir
+- `rm -rf` - delete a folder without warning
 - `cmd+t` - open a new terminal tab
 - `pwd` - display current path (working dir)
 - `cd ~` - go to (user) home dir
