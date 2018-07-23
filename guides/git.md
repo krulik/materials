@@ -9,11 +9,16 @@ Git is a version control system (VCS), with a few differentiating points:
 1. It's branching/merging capabilities encourages a healthy workflow
 1. Its rooted in the open source community and therefore integrates very well with other tools in our workflow
 
-## Tutorial
+## Required Tutorial
 
-There's a short and sweet tutorial (15m) by Codeacademy and Github called "Try Git".
-It's assumed you'll complete it before proceeding any further.
+There's a full tutorial called [Git-it](https://github.com/jlord/git-it-electron).
+Before we continue you should complete the chapters:
+- Get git (1)
+- Repository (2)
+- Commit (3)
+- Branches (7)
 
+More info:
 https://try.github.io/
 
 ## Push your first repo to Github
