@@ -21,6 +21,9 @@ Before we continue you should complete the chapters:
 More info:
 https://try.github.io/
 
+Video tutorial: 
+https://youtu.be/pdY6FAaUwUo
+
 ## Push your first repo to Github
 
 ### Initialize a local repository
