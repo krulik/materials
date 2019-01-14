@@ -217,7 +217,7 @@ module.exports = {
 ## ESLint
 
 ```bash
-npm install eslint babel-eslint --save-dev
+npm install eslint babel-eslint eslint-plugin-react --save-dev
 ```
 
 ```bash
