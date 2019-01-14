@@ -76,7 +76,7 @@ export default hot(module)(App);
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './index.css';
+import './index.scss';
 
 import App from './components/App/App.jsx';
 
