@@ -59,6 +59,14 @@ export default hot(module)(App);
 `./src/index.scss`
 
 ```scss
+:root {
+  --space: 1em;
+}
+
+@function space($portion) {
+  @return calc(var(--space) * $portion);
+}
+
 @import './components/App/App';
 ```
 
