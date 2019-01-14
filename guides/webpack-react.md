@@ -195,6 +195,7 @@ module.exports = {
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-eslint": "^10.0.1",
     "css-loader": "^2.1.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
