@@ -173,47 +173,6 @@ module.exports = {
 };
 ```
 
-`./package.json`
-
-```json
-{
-  "name": "react-jsx-class",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.12.0",
-    "eslint-plugin-react": "^7.12.3",
-    "css-loader": "^2.1.0",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-hot-loader": "^4.6.3"
-  }
-}
-```
-
 ## ESLint
 
 ```bash
@@ -265,5 +224,46 @@ npm install eslint babel-eslint eslint-plugin-react --save-dev
         ],
         "no-console": "warn"
     }
+}
+```
+
+`./package.json`
+
+```json
+{
+  "name": "react-jsx-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js src/**/*.jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-plugin-react": "^7.12.3",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3"
+  }
 }
 ```
