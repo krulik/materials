@@ -18,12 +18,6 @@ npm init -y
 git init
 ```
 
-#### Init a Github repository
-
-```
-git init
-```
-
 #### Init an Heroku project
 
 ```
